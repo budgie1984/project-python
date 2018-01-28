@@ -12,4 +12,4 @@ def publish_callback(result, status):
     pass
     print(result, status)
 
-pubnub.publish().channel('demo').message(['hello', 'there']).async(publish_callback)
+pubnub.publish().channel('demo').message(['tablets taken']).async(publish_callback)
