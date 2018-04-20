@@ -1,10 +1,13 @@
 #Libraries
 import RPi.GPIO as GPIO
 import time
-import myemail
 
 #GPIO Mode (BOARD / BCM)
 GPIO.setmode(GPIO.BCM)
+
+# This Python Script was taken from the following location
+# https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/
+# I could see no name for the original writer of this code to give them due credit
  
 #set GPIO Pins
 GPIO_TRIGGER = 18
